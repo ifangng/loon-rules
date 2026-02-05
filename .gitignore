@@ -8,3 +8,7 @@ config/loon-local.conf
 config/loon.conf
 config/loon-standard.conf
 config/loon-dynamic-private.lcf
+config/loon-rules-public.conf
+
+# local scripts
+tools/
