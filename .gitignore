@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# private source / generated configs (do not publish)
+config.yaml
+config/loon-private-nodes.conf
+config/loon-local.conf
+config/loon.conf
+config/loon-standard.conf
+config/loon-dynamic-private.lcf
