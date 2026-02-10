@@ -28,42 +28,34 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 [Remote Proxy]
 # Keep this section empty. Add your subscriptions in Loon app.
 
-[Remote Filter]
-香港节点 = NameRegex,,FilterKey=(?i)(港|HK|Hong)
-台湾节点 = NameRegex,,FilterKey=(?i)(台|TW|Taiwan)
-日本节点 = NameRegex,,FilterKey=(?i)(日|JP|Japan|Tokyo|Osaka)
-新加坡节点 = NameRegex,,FilterKey=(?i)(新|SG|Singapore)
-美国节点 = NameRegex,,FilterKey=(?i)(美|US|USA|United States)
-全球节点 = NameRegex,,FilterKey=.
-
 [Proxy Group]
-🚀 节点选择 = select,香港节点,台湾节点,日本节点,新加坡节点,美国节点,全球节点,PROXY,DIRECT
-🤖 ChatGPT = select,🚀 节点选择,全球节点,PROXY,DIRECT
-🤖 Claude = select,🚀 节点选择,全球节点,PROXY,DIRECT
-🤖 Gemini = select,🚀 节点选择,全球节点,PROXY,DIRECT
-📲 电报消息 = select,🚀 节点选择,全球节点,PROXY,DIRECT
-📹 油管视频 = select,🚀 节点选择,全球节点,PROXY,DIRECT
-🎥 奈飞视频 = select,🚀 节点选择,全球节点,PROXY,DIRECT
-🎥 迪士尼+ = select,🚀 节点选择,全球节点,PROXY,DIRECT
-📺 巴哈姆特 = select,🚀 节点选择,全球节点,PROXY,DIRECT
-📺 哔哩哔哩 = select,DIRECT,🚀 节点选择,全球节点,PROXY
-📢 谷歌FCM = select,DIRECT,🚀 节点选择,全球节点,PROXY
-Ⓜ️ 微软云盘 = select,DIRECT,🚀 节点选择,全球节点,PROXY
-Ⓜ️ 微软服务 = select,DIRECT,🚀 节点选择,全球节点,PROXY
-🍎 苹果服务 = select,DIRECT,🚀 节点选择,全球节点,PROXY
-🎮 游戏平台 = select,DIRECT,🚀 节点选择,全球节点,PROXY
-🎶 网易音乐 = select,DIRECT,🚀 节点选择,全球节点,PROXY
+🚀 节点选择 = select,PROXY,DIRECT
+🤖 ChatGPT = select,🚀 节点选择,PROXY,DIRECT
+🤖 Claude = select,🚀 节点选择,PROXY,DIRECT
+🤖 Gemini = select,🚀 节点选择,PROXY,DIRECT
+📲 电报消息 = select,🚀 节点选择,PROXY,DIRECT
+📹 油管视频 = select,🚀 节点选择,PROXY,DIRECT
+🎥 奈飞视频 = select,🚀 节点选择,PROXY,DIRECT
+🎥 迪士尼+ = select,🚀 节点选择,PROXY,DIRECT
+📺 巴哈姆特 = select,🚀 节点选择,PROXY,DIRECT
+📺 哔哩哔哩 = select,DIRECT,🚀 节点选择,PROXY
+📢 谷歌FCM = select,DIRECT,🚀 节点选择,PROXY
+Ⓜ️ 微软云盘 = select,DIRECT,🚀 节点选择,PROXY
+Ⓜ️ 微软服务 = select,DIRECT,🚀 节点选择,PROXY
+🍎 苹果服务 = select,DIRECT,🚀 节点选择,PROXY
+🎮 游戏平台 = select,DIRECT,🚀 节点选择,PROXY
+🎶 网易音乐 = select,DIRECT,🚀 节点选择,PROXY
 🛑 广告拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-☁️ CloudFlare = select,DIRECT,🚀 节点选择,全球节点,PROXY
-📹 TikTok = select,🚀 节点选择,全球节点,PROXY,DIRECT
-📺 HBO系列 = select,🚀 节点选择,全球节点,PROXY,DIRECT
-🎥 亚马逊视频 = select,🚀 节点选择,全球节点,PROXY,DIRECT
-📺 Hulu = select,🚀 节点选择,全球节点,PROXY,DIRECT
-📹 DAZN = select,🚀 节点选择,全球节点,PROXY,DIRECT
-🎮 Steam下载 = select,DIRECT,🚀 节点选择,全球节点,PROXY
-🎮 Steam网页 = select,DIRECT,🚀 节点选择,全球节点,PROXY
-🤖 Copilot = select,🚀 节点选择,全球节点,PROXY,DIRECT
+☁️ CloudFlare = select,DIRECT,🚀 节点选择,PROXY
+📹 TikTok = select,🚀 节点选择,PROXY,DIRECT
+📺 HBO系列 = select,🚀 节点选择,PROXY,DIRECT
+🎥 亚马逊视频 = select,🚀 节点选择,PROXY,DIRECT
+📺 Hulu = select,🚀 节点选择,PROXY,DIRECT
+📹 DAZN = select,🚀 节点选择,PROXY,DIRECT
+🎮 Steam下载 = select,DIRECT,🚀 节点选择,PROXY
+🎮 Steam网页 = select,DIRECT,🚀 节点选择,PROXY
+🤖 Copilot = select,🚀 节点选择,PROXY,DIRECT
 🎯 全球直连 = select,DIRECT,🚀 节点选择
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT
 
