@@ -1,5 +1,5 @@
 # Loon 动态规则配置
-# 版本：v1.0.0
+# 版本：v1.0.1
 # 更新时间：2026-02-10 13:20 (UTC+8)
 # 作者：ifangng
 # 仓库：https://github.com/ifangng/loon-rules
@@ -30,8 +30,11 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 [Remote Proxy]
 # Keep this section empty. Add your subscriptions in Loon app.
 
+[Remote Filter]
+全部节点 = NameRegex,,FilterKey=.
+
 [Proxy Group]
-🚀 节点选择 = select,PROXY,DIRECT
+🚀 节点选择 = select,全部节点,PROXY,DIRECT
 🤖 ChatGPT = select,🚀 节点选择,PROXY,DIRECT
 🤖 Claude = select,🚀 节点选择,PROXY,DIRECT
 🤖 Gemini = select,🚀 节点选择,PROXY,DIRECT
