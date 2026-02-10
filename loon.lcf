@@ -1,6 +1,8 @@
-# Publishable dynamic Loon config template
-# Safe to publish: no node credentials here.
-# Node subscription should be added separately in Loon app.
+# Loon 动态规则配置
+# 版本：v1.0.0
+# 更新时间：2026-02-10 13:20 (UTC+8)
+# 作者：ifangng
+# 仓库：https://github.com/ifangng/loon-rules
 
 [General]
 ip-mode=v4-only
@@ -22,7 +24,7 @@ proxy-test-url=http://www.gstatic.com/generate_204
 resource-parser=https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
 geoip-url=https://geodata.kelee.one/Country-Masaiki.mmdb
 ipasn-url=https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
-skip-proxy=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, e.crashlynatics.com
+skip-proxy=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, localhost, *.local, e.crashlynatics.com, *.chinaunicom.cn, *.unisk.cn, *.unicom.net.cn, *.unicom.local, *.chinaunicom.com, *.chinaunicom.com.cn, *.10010.com
 bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32
 
 [Remote Proxy]
@@ -60,6 +62,10 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 🐟 漏网之鱼 = select,🚀 节点选择,DIRECT
 
 [Rule]
+DOMAIN-SUFFIX,chinaunicom.cn,🎯 全球直连
+DOMAIN-SUFFIX,unisk.cn,🎯 全球直连
+DOMAIN-SUFFIX,unicom.net.cn,🎯 全球直连
+DOMAIN-SUFFIX,unicom.local,🎯 全球直连
 FINAL,🐟 漏网之鱼
 
 [Remote Rule]
