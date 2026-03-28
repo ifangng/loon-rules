@@ -1,5 +1,5 @@
 # Loon 动态规则配置
-# 版本：v1.0.6
+# 版本：v1.0.7
 # 更新时间：2026-03-28 (UTC+8)
 # 作者：ifangng
 # 仓库：https://github.com/ifangng/loon-rules
@@ -43,7 +43,6 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 🎥 奈飞视频 = select,🚀 节点选择,全部节点,PROXY,DIRECT
 🎥 迪士尼+ = select,🚀 节点选择,全部节点,PROXY,DIRECT
 📺 巴哈姆特 = select,🚀 节点选择,全部节点,PROXY,DIRECT
-📺 哔哩哔哩 = select,DIRECT,🚀 节点选择,全部节点,PROXY
 📢 谷歌FCM = select,DIRECT,🚀 节点选择,全部节点,PROXY
 🛑 广告拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
@@ -70,7 +69,6 @@ https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/stream-youtube.l
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/stream-netflix.list, policy=🎥 奈飞视频, tag=stream-netflix, enabled=true
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/stream-disneyplus.list, policy=🎥 迪士尼+, tag=stream-disneyplus, enabled=true
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/stream-bahamut.list, policy=📺 巴哈姆特, tag=stream-bahamut, enabled=true
-https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/social-bilibili.list, policy=📺 哔哩哔哩, tag=social-bilibili, enabled=true
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/platform-google-fcm.list, policy=📢 谷歌FCM, tag=platform-google-fcm, enabled=true
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/security-ads.list, policy=🛑 广告拦截, tag=security-ads, enabled=true
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/security-privacy.list, policy=🍃 应用净化, tag=security-privacy, enabled=true
