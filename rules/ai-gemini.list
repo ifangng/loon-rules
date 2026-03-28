@@ -21,3 +21,9 @@ DOMAIN-SUFFIX,ssl.gstatic.com
 DOMAIN-SUFFIX,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,www.google.com
 DOMAIN-SUFFIX,www.gstatic.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
