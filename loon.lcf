@@ -1,6 +1,6 @@
 # Loon 动态规则配置
-# 版本：v1.0.7
-# 更新时间：2026-03-28 (UTC+8)
+# 版本：v1.0.8
+# 更新时间：2026-10-28 (UTC+8)
 # 作者：ifangng
 # 仓库：https://github.com/ifangng/loon-rules
 
@@ -57,6 +57,7 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 🐟 漏网之鱼 = select,🚀 节点选择,全部节点,DIRECT
 
 [Rule]
+DOMAIN,challenges.cloudflare.com,🚀 节点选择
 FINAL,🐟 漏网之鱼
 
 [Remote Rule]
@@ -81,3 +82,4 @@ https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/stream-dazn.list
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/ai-copilot.list, policy=🤖 Copilot, tag=ai-copilot, enabled=true
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/security-reject.list, policy=REJECT, tag=security-reject, enabled=true
 https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/routing-proxy.list, policy=🚀 节点选择, tag=routing-proxy, enabled=true
+https://raw.githubusercontent.com/ifangng/loon-rules/main/rules/core-direct-ip.list, policy=🎯 全球直连, tag=core-direct-ip, enabled=true
