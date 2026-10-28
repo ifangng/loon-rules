@@ -8,7 +8,6 @@ DOMAIN-KEYWORD,adsrvmedia
 DOMAIN-KEYWORD,adsserving
 DOMAIN-KEYWORD,adsystem
 DOMAIN-KEYWORD,adwords
-DOMAIN-KEYWORD,analysis
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,appsflyer
 DOMAIN-KEYWORD,domob
@@ -17,12 +16,11 @@ DOMAIN-KEYWORD,dwtrack
 DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,omgmta
 DOMAIN-KEYWORD,omniture
-DOMAIN-KEYWORD,openx
+DOMAIN-SUFFIX,openx.net
 DOMAIN-KEYWORD,partnerad
 DOMAIN-KEYWORD,pingfore
 DOMAIN-KEYWORD,socdm
 DOMAIN-KEYWORD,supersonicads
-DOMAIN-KEYWORD,usage
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
 DOMAIN-SUFFIX,admob.com
@@ -563,7 +561,6 @@ DOMAIN-SUFFIX,rubiconproject.com
 DOMAIN-SUFFIX,sape.ru
 DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,segment.com
-DOMAIN-SUFFIX,serving-sys.com
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,smaato.com
 DOMAIN-SUFFIX,smaato.net
